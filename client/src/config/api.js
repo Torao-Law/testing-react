@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create base URL API
 export const API = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL,
+  baseURL: "https://testing-production-718a.up.railway.app/api/v1",
 });
 
 // Set Authorization Token Header
